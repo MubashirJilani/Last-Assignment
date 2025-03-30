@@ -77,8 +77,85 @@
           <ins><b>$ 89.99</b></ins>
         </td>
         <td>Low Stock</td>
-        <td><button>Add to cart</button></td>
+        <td><button>Add to cart</button></td>                     
       </tr>
     </table>
+    <h3>Create New Account</h3>
+    <form>
+      <fieldset>
+          <legend><b>Personal Information</b></legend>
+          <label for="firstName">First Name:</label>
+          <input type="text" id="firstName" name="firstName" required>
+          
+          <label for="lastName">Last Name:</label>
+          <input type="text" id="lastName" name="lastName" required>
+          
+          <label for="dob">Date of Birth:</label>
+          <input type="date" id="dob" name="dob" required>
+
+           Gender : <label for="Gender">Male</label>
+          <input type="radio" id="Gender" name="Gender" required>
+          <label for="Gender">Female</label> 
+          <input type="radio" id="Gender" name="Gender" required>
+      </fieldset>
+    <fieldset>
+      <legend>Account Details</legend>
+
+      <label for="email">Email</label>
+      <input type="email" id="email" name="email" required>
+
+      <label for="pass">Password</label>
+      <input type="password" id="pass" name="pass" required>
+
+      <label for="call">Phone no.</label>
+      <input type="number" id="call" name="call" required>
+
+      <label for="news">Subscribe to News letter</label>
+      <input type="checkbox" id="news" name="news" required>
+    </fieldset>
+    <fieldset>
+      <legend>Shipping Address</legend>
+      <label for="all">Street Address</label>
+      <textarea name="all" id="all" required></textarea>
+
+      <label for="city">Country</label>
+      <input type="text" id="city" name="city" required>
+
+      <label for="code">ZIP code</label>
+      <input type="number" id="code" name="code" required>
+    </fieldset>
+    <button>Create Account </button> <button> Clear form</button>
+  </form>
+  <h3>Product Comparison</h3>
+  <table border="3" width="500">
+    <tr>
+      <th>Feature </th>
+      <th>Basic Model</th>
+      <th>Pro Model</th>
+      <th>Premium Model</th>
+    </tr>
+    <tr>
+      <td><b>Battery life</b></td>
+      <td>8 Hours</td>
+      <td>12 Hours</td>
+      <td>24 Hours</td>
+    </tr>
+    <tr>
+      <td><b>Water Resistance</b></td>
+      <td>IPX4</td>
+      <td>IPX7</td>
+      <td>IPX8</td>
+    </tr>
+    <tr>
+      <td><b>Warranty</b></td>
+      <td>1 Year</td>
+      <td colspan="2">2 Years</td>
+    </tr>
+    <tr>
+      <td colspan="4">*All prices include VAT</td>
+    </tr>
+  </table>
+  <h3>Checkout Process</h3>
+
   </body>
 </html>
